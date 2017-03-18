@@ -1,0 +1,8 @@
+job('DslScriptTest') {
+//    scm {
+//        git("git://github.com/${project}.git", branchName)
+//    }
+    steps {
+        shell("echo $WORKSPACE")
+    }
+}
